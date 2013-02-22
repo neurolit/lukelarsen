@@ -1,1 +1,1 @@
-This is the portfolio website of Luke Larsen.
+This is the portfolio website of Luke Larsen. Why am I putting my portfolio site up here? I just want a place to play around with Ruby and Git.
