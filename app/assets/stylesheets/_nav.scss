@@ -1,0 +1,72 @@
+//
+// Navigation
+// --------------------------------------------------
+
+.nav{
+	@extend %clearfix;
+	margin: 0 0 0 3px;
+	padding-left: 0;
+	li{
+		float: left;
+		list-style-type: none;
+		margin: 0 28px 40px 2px;
+		a{
+			font-family: $sansFontFamilyCond;
+			font-size: 24px;
+			color: $gray;
+			@include transition(color .3s ease-out);
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+	.logo{
+		float: none;
+		margin-left: 1px;
+		a{
+			@include font-sans-serif-brand(62px,normal,.8em);
+			span{
+				color: #8E8E8E;
+			}
+
+		}
+	}
+	li.active:nth-child(2) a{
+		color: $colorDesign;
+	}
+	li.active:nth-child(3) a{
+		color: $colorCode;
+	}
+	li.active:nth-child(4) a{
+		color: $colorAbout;
+	}
+	li.active:nth-child(5) a{
+		color: $colorTestimonial;
+	}
+	li.active:nth-child(6) a{
+		color: $black;
+	}
+
+	// Hover
+	li:nth-child(2):hover a{
+		color: $colorDesign;
+	}
+	li:nth-child(3):hover a{
+		color: $colorCode;
+	}
+	li:nth-child(4):hover a{
+		color: $colorAbout;
+	}
+	li:nth-child(5):hover a{
+		color: $colorTestimonial;
+	}
+	li:nth-child(6):hover a{
+		color: $black;
+	}
+}
+.lt-ie9 .nav li, .lt-ie9 .element:before, .lt-ie9 .element:after, .lt-ie8 .plus{
+	display: none;
+}
+.lt-ie9 .nav li.logo{
+	display: block;
+}

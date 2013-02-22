@@ -1,0 +1,186 @@
+//
+// Isotope
+// --------------------------------------------------
+
+$markerSize: 15px;
+$markerSizeHalf: 11px;
+
+.element{
+  margin: 7px;
+  overflow: hidden;
+  cursor: pointer;
+  &:before, &:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+  &:before{
+    border-top: $markerSize solid transparent;
+    border-bottom: $markerSize solid transparent;
+    @include rotate(45deg);
+    bottom: -4px;
+    right: 5px;
+  }
+  // Used for the double markers
+  &:after{
+    border-top: $markerSizeHalf solid transparent;
+    border-bottom: $markerSizeHalf solid transparent;
+    bottom: 6px;
+    right: 7px;
+  }
+}
+.design:before{
+  border-left: $markerSize solid $colorDesign;
+}
+.code:before{
+  border-left: $markerSize solid $colorCode;
+}
+.about:before{
+  border-left: $markerSize solid $colorAbout;
+}
+.testimonial:before{
+  border-left: $markerSize solid $colorTestimonial;
+}
+.contact:before{
+  border-left: $markerSize solid $colorContact;
+}
+.design:after{
+  border-right: $markerSizeHalf solid $colorDesign;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+// Testimonials
+/////////////////////////
+.testimonial{
+  background-color: $grayLight;
+  cursor: default;
+}
+.testimonial-thumb{
+  overflow: hidden;
+  color: $white;
+  padding: 20px;
+  line-height: 1.3em;
+  font-size: 12px;
+  width: 110px;
+  height: 110px;
+}
+.text-two-x-one{
+  height: 274px;
+}
+
+// Contact
+/////////////////////////
+.contact{
+  @include size(150px, 150px);
+  i{
+    font-size: 48px;
+    position: absolute;
+    top: 50px;
+    left: 41px;
+    color: $white;
+  }
+}
+.twitter{
+  background-color: #00ADE4;
+}
+.github{
+  background-color: #070707;
+}
+.linkedin{
+  background-color: #006FB7;
+}
+.dribbble{
+  background-color: #FF2186;
+}
+.email{
+  background-color: orange;
+}
+
+// Plus Icon
+////////////////////////////
+.plus{
+	position: absolute;
+	top:-26px;
+	left:6px;
+	padding: 3px;
+	background-color: $white;
+	@include transition(top .2s ease-in-out);
+}
+.plus-active{
+	top:6px;
+}
+
+// Dim all the image
+////////////////////////////
+.dim{
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 9999;
+  position: absolute;
+  background-color: rgba(10,10,10,.7);
+  @include transition(background-color .2s ease-in-out);
+}
+.no-dim{
+  background-color: rgba(10,10,10,0);
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}

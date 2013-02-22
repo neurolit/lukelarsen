@@ -1,0 +1,30 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+// Body text
+// -------------------------
+
+p {
+  margin: 0 0 $baseLineHeight / 2;
+}
+
+
+// Headings
+// -------------------------
+
+h5 {
+  margin: ($baseLineHeight / 2) 0;
+  font-family: $headingsFontFamily;
+  font-weight: $headingsFontWeight;
+  line-height: $baseLineHeight;
+  color: $headingsColor;
+  text-rendering: optimizelegibility; // Fix the character spacing for headings
+  small {
+    font-weight: normal;
+    line-height: 1;
+    color: $grayLight;
+  }
+}
+h5 { font-size: $baseFontSize * 0.90; }

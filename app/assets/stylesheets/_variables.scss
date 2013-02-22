@@ -1,0 +1,61 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// Global values
+// --------------------------------------------------
+
+
+// Grays
+// -------------------------
+$black:                 #000 !default;
+$grayDarker:            #222 !default;
+$grayDark:              #333 !default;
+$gray:                  #666 !default;
+$grayLight:             #999 !default;
+$grayLighter:           #f1f1f1 !default;
+$white:                 #fff !default;
+
+
+// Accent colors
+// -------------------------
+$color1:                #FF9933 !default;
+$color2:						    #20B739 !default;
+$color3:                #3F76D5 !default;
+$color4:                #8500DB !default;
+
+
+// Assigned Colors
+// --------------------------
+$colorDesign:	          $color3;
+$colorCode:					    $color1;
+$colorAbout:				    $color2;
+$colorTestimonial:		  $color4;
+$colorContact:				  $grayLighter;
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        $grayLighter !default;
+$textColor:             $grayDark !default;
+
+
+// Links
+// -------------------------
+$linkColor:             #08c !default;
+$linkColorHover:        darken($linkColor, 15%) !default;
+
+
+// Typography
+// -------------------------
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$sansFontFamilyCond:    "TradeGothicLTCondEighteenRg", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$sansFontFamilyBrand:   "arvil_sansregular", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+$baseFontSize:          14px !default;
+$baseFontFamily:        $sansFontFamily !default;
+$baseLineHeight:        20px !default;
+
+$headingsFontFamily:    inherit !default; // empty to use BS default, $baseFontFamily
+$headingsFontWeight:    bold !default;    // instead of browser default, bold
+$headingsColor:         inherit !default; // empty to use BS default, $textColor

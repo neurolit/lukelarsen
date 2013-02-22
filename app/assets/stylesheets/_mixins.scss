@@ -1,0 +1,88 @@
+//
+// Mixins
+// --------------------------------------------------
+
+
+// UTILITY MIXINS
+// --------------------------------------------------
+
+// Clearfix
+// --------
+// For clearing floats like a boss h5bp.com/q
+%clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Sizing shortcuts
+// -------------------------
+@mixin size($height, $width) {
+  width: $width;
+  height: $height;
+}
+@mixin square($size) {
+  @include size($size, $size);
+}
+
+// FONTS
+// --------------------------------------------------
+
+
+@mixin font-family-sans-serif() {
+  font-family: $sansFontFamily;
+}
+@mixin font-family-sans-serif-brand() {
+  font-family: $sansFontFamilyBrand;
+}
+@mixin font-family-sans-serif-cond() {
+  font-family: $sansFontFamilyCond;
+}
+@mixin font-shorthand($size: $baseFontSize, $weight: normal, $lineHeight: $baseLineHeight) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lineHeight;
+}
+
+@mixin font-sans-serif($size: $baseFontSize, $weight: normal, $lineHeight: $baseLineHeight) {
+  @include font-family-sans-serif();
+  @include font-shorthand($size, $weight, $lineHeight);
+}
+@mixin font-sans-serif-brand($size: $baseFontSize, $weight: normal, $lineHeight: $baseLineHeight) {
+  @include font-family-sans-serif-brand();
+  @include font-shorthand($size, $weight, $lineHeight);
+}
+@mixin font-sans-serif-cond($size: $baseFontSize, $weight: normal, $lineHeight: $baseLineHeight) {
+  @include font-family-sans-serif-cond();
+  @include font-shorthand($size, $weight, $lineHeight);
+}
+
+
+// CSS3 PROPERTIES
+// --------------------------------------------------
+
+// Transitions
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
+}
+
+// Transformations
+@mixin rotate($degrees) {
+  -webkit-transform: rotate($degrees);
+     -moz-transform: rotate($degrees);
+      -ms-transform: rotate($degrees);
+       -o-transform: rotate($degrees);
+          transform: rotate($degrees);
+}
