@@ -40,10 +40,10 @@ $('#container').waitForImages(function() {
    // Set up portfolio images
    $('#amara').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//www.lukelarsen.com/images/port-amara1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://amaradayspa.com'>Visit Site</a>" },
-         { url: 'http://app.resrc.it//www.lukelarsen.com/images/port-amara2.jpg'},
-         { url: 'http://app.resrc.it//www.lukelarsen.com/images/port-amara3.jpg'},
-         { url: 'http://app.resrc.it//www.lukelarsen.com/images/port-amara4.jpg'}
+         { url: '/assets/port-amara1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://amaradayspa.com'>Visit Site</a>" },
+         { url: '/assets/port-amara2.jpg'},
+         { url: '/assets/port-amara3.jpg'},
+         { url: '/assets/port-amara4.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -51,10 +51,10 @@ $('#container').waitForImages(function() {
 
    $('#mountainwestburrito').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-mountainwestburrito1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://mountainwestburrito.com'>Visit Site</a>" },
-         { url: 'images/port-mountainwestburrito2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-mountainwestburrito3.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-mountainwestburrito4.jpg'}
+         { url: '/assets/port-mountainwestburrito1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://mountainwestburrito.com'>Visit Site</a>" },
+         { url: '/assets/port-mountainwestburrito2.jpg'},
+         { url: '/assets/port-mountainwestburrito3.jpg'},
+         { url: '/assets/port-mountainwestburrito4.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -62,11 +62,11 @@ $('#container').waitForImages(function() {
 
    $('#lukemak').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-lukemak1.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-lukemak2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-lukemak3.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-lukemak4.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-lukemak5.jpg'}
+         { url: '/assets/port-lukemak1.jpg'},
+         { url: '/assets/port-lukemak2.jpg'},
+         { url: '/assets/port-lukemak3.jpg'},
+         { url: '/assets/port-lukemak4.jpg'},
+         { url: '/assets/port-lukemak5.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -74,7 +74,7 @@ $('#container').waitForImages(function() {
 
    $('#father').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-father.jpg', caption: "Three little girls call me daddy." }
+         { url: '/assets/port-father.jpg', caption: "Three little girls call me daddy." }
       ],
       { ui: 'inside' }
       );
@@ -82,9 +82,9 @@ $('#container').waitForImages(function() {
 
    $('#uoc').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-uoc1.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-uoc2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-uoc3.jpg'}
+         { url: '/assets/port-uoc1.jpg'},
+         { url: '/assets/port-uoc2.jpg'},
+         { url: '/assets/port-uoc3.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -92,9 +92,9 @@ $('#container').waitForImages(function() {
 
    $('#leavitt').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-leavitt1.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-leavitt2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-leavitt3.jpg'}
+         { url: '/assets/port-leavitt1.jpg'},
+         { url: '/assets/port-leavitt2.jpg'},
+         { url: '/assets/port-leavitt3.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -102,9 +102,9 @@ $('#container').waitForImages(function() {
 
    $('#tennis').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-tennis1.jpg', caption: "Tennis is a passion of mine. If possible, I'd play everyday." },
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-tennis2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-tennis3.jpg'}
+         { url: '/assets/port-tennis1.jpg', caption: "Tennis is a passion of mine. If possible, I'd play everyday." },
+         { url: '/assets/port-tennis2.jpg'},
+         { url: '/assets/port-tennis3.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -112,12 +112,12 @@ $('#container').waitForImages(function() {
 
    $('#reporttime').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-reporttime1.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-reporttime2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-reporttime3.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-reporttime4.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-reporttime5.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-reporttime6.jpg'}
+         { url: '/assets/port-reporttime1.jpg'},
+         { url: '/assets/port-reporttime2.jpg'},
+         { url: '/assets/port-reporttime3.jpg'},
+         { url: '/assets/port-reporttime4.jpg'},
+         { url: '/assets/port-reporttime5.jpg'},
+         { url: '/assets/port-reporttime6.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -125,10 +125,10 @@ $('#container').waitForImages(function() {
 
    $('#pizzeria').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-pizzeria1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://pizzeria712.com'>Visit Site</a>" },
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-pizzeria2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-pizzeria3.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-pizzeria4.jpg'}
+         { url: '/assets/port-pizzeria1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://pizzeria712.com'>Visit Site</a>" },
+         { url: '/assets/port-pizzeria2.jpg'},
+         { url: '/assets/port-pizzeria3.jpg'},
+         { url: '/assets/port-pizzeria4.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -136,7 +136,7 @@ $('#container').waitForImages(function() {
 
    $('#weber').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-weber.jpg', caption: "I graduated with a BFA from Weber State University." }
+         { url: '/assets/port-weber.jpg', caption: "I graduated with a BFA from Weber State University." }
       ],
       { ui: 'inside' }
       );
@@ -144,10 +144,10 @@ $('#container').waitForImages(function() {
 
    $('#communal').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-communal1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://communalrestaurant.com'>Visit Site</a>" },
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-communal2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-communal3.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-communal4.jpg'}
+         { url: '/assets/port-communal1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://communalrestaurant.com'>Visit Site</a>" },
+         { url: '/assets/port-communal2.jpg'},
+         { url: '/assets/port-communal3.jpg'},
+         { url: '/assets/port-communal4.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -155,7 +155,7 @@ $('#container').waitForImages(function() {
 
    $('#glasses').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-glasses.jpg', caption: "I wear weird yellow glasses while working at the computer. It helps my eyes not dry out." }
+         { url: '/assets/port-glasses.jpg', caption: "I wear weird yellow glasses while working at the computer. It helps my eyes not dry out." }
       ],
       { ui: 'inside' }
       );
@@ -163,9 +163,9 @@ $('#container').waitForImages(function() {
 
    $('#ucb').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-ucb1.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-ucb2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-ucb3.jpg'}
+         { url: '/assets/port-ucb1.jpg'},
+         { url: '/assets/port-ucb2.jpg'},
+         { url: '/assets/port-ucb3.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -173,10 +173,10 @@ $('#container').waitForImages(function() {
 
    $('#ivu').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-ivu1.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-ivu2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-ivu3.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-ivu4.jpg'}
+         { url: '/assets/port-ivu1.jpg'},
+         { url: '/assets/port-ivu2.jpg'},
+         { url: '/assets/port-ivu3.jpg'},
+         { url: '/assets/port-ivu4.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -184,7 +184,7 @@ $('#container').waitForImages(function() {
 
    $('#icecream').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-icecream.jpg', caption: "This stuff is my great weakness in life." },
+         { url: '/assets/port-icecream.jpg', caption: "This stuff is my great weakness in life." },
       ],
       { ui: 'inside' }
       );
@@ -192,10 +192,10 @@ $('#container').waitForImages(function() {
 
    $('#codegreen').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-codegreen1.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-codegreen2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-codegreen3.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-codegreen4.jpg'}
+         { url: '/assets/port-codegreen1.jpg'},
+         { url: '/assets/port-codegreen2.jpg'},
+         { url: '/assets/port-codegreen3.jpg'},
+         { url: '/assets/port-codegreen4.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -203,9 +203,9 @@ $('#container').waitForImages(function() {
 
    $('#torbet').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-torbet1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://torbetlaw.com'>Visit Site</a>" },
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-torbet2.jpg'},
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-torbet3.jpg'}
+         { url: '/assets/port-torbet1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://torbetlaw.com'>Visit Site</a>" },
+         { url: '/assets/port-torbet2.jpg'},
+         { url: '/assets/port-torbet3.jpg'}
       ],
       { ui: 'inside' }
       );
@@ -213,7 +213,7 @@ $('#container').waitForImages(function() {
 
    $('#zelda').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-zelda.jpg', caption: "I know where every secret is on the original Zelda game." }
+         { url: '/assets/port-zelda.jpg', caption: "I know where every secret is on the original Zelda game." }
       ],
       { ui: 'inside' }
       );
@@ -221,7 +221,7 @@ $('#container').waitForImages(function() {
 
    $('#ironwood').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-ironwood.jpg', caption: "I have a collection of ironwood sculptures. Kind of odd I know." }
+         { url: '/assets/port-ironwood.jpg', caption: "I have a collection of ironwood sculptures. Kind of odd I know." }
       ],
       { ui: 'inside' }
       );
@@ -229,7 +229,7 @@ $('#container').waitForImages(function() {
 
    $('#books').bind('click', function() {
       Fresco.show([
-         { url: 'http://app.resrc.it//lukelarsen.com/images/port-books.jpg', caption: "My favorite book series is The Wheel of Time by Robert Jordan." }
+         { url: '/assets/port-books.jpg', caption: "My favorite book series is The Wheel of Time by Robert Jordan." }
       ],
       { ui: 'inside' }
       );
