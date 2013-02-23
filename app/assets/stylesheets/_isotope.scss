@@ -107,7 +107,7 @@ $markerSizeHalf: 11px;
 	position: absolute;
 	top:-26px;
 	left:6px;
-	padding: 3px;
+	padding: 3px 5px 1px 5px;
 	background-color: $white;
 	@include transition(top .2s ease-in-out);
 }

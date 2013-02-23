@@ -1,14 +1,13 @@
-// Preload the images
+// Add/Remove hover and active classes
+$(document).ready(function() {
+
+   // Preload the images
 $('#container').waitForImages(function() {
-   $('.icon-spin2').fadeOut(500,function(){
-      $('.icon-spin2').remove();
+   $('.icon-spinner').fadeOut(500,function(){
+      $('.icon-spinner').remove();
    });
    $('#container').fadeIn(1000);
 });
-
-
-// Add/Remove hover and active classes
-$(document).ready(function() {
 
    $('.nav li a').hover(
       function () {
