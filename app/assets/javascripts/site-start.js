@@ -201,6 +201,15 @@ $('#container').waitForImages(function() {
       );
    });
 
+   $('#magentomavens').bind('click', function() {
+      Fresco.show([
+         { url: '/assets/port-magentomavens1.jpg'},
+         { url: '/assets/port-magentomavens2.jpg'}
+      ],
+      { ui: 'inside' }
+      );
+   });
+
    $('#torbet').bind('click', function() {
       Fresco.show([
          { url: '/assets/port-torbet1.jpg', caption: "Designed by <a target='_blank' href='http://petersenwest.com'>PetersenWest</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target='_blank' href='http://torbetlaw.com'>Visit Site</a>" },
@@ -221,7 +230,7 @@ $('#container').waitForImages(function() {
 
    $('#ironwood').bind('click', function() {
       Fresco.show([
-         { url: '/assets/port-ironwood.jpg', caption: "I have a collection of ironwood sculptures. Kind of odd I know." }
+         { url: '/assets/port-ironwood.jpg', caption: "I have a collection of ironwood sculptures." }
       ],
       { ui: 'inside' }
       );
