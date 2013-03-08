@@ -192,7 +192,7 @@ $('#container').waitForImages(function() {
 
    $('#codegreen').bind('click', function() {
       Fresco.show([
-         { url: '/assets/port-codegreen1.jpg', , caption: "<a target='_blank' href='http://codegreeninteractive.com'>Visit Site</a>"},
+         { url: '/assets/port-codegreen1.jpg', caption: "<a target='_blank' href='http://codegreeninteractive.com'>Visit Site</a>"},
          { url: '/assets/port-codegreen2.jpg'},
          { url: '/assets/port-codegreen3.jpg'},
          { url: '/assets/port-codegreen4.jpg'}
